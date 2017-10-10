@@ -1,0 +1,82 @@
+body {
+  background-color: #FF0042;
+}
+
+.menu {
+  width: 60%;
+  margin: 0 auto;
+}
+.menu__item--center {
+  width: 100px;
+  margin: 0 auto;
+}
+.menu__item--title {
+  font-family: "Pacifico";
+  color: #FFFFFF;
+}
+.menu__item--left {
+  position: absolute;
+  left: 10%;
+  top: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Pacifico;
+  -webkit-transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+  -moz-transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+  -o-transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+  transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+}
+.menu__item--left:hover {
+  opacity: 0.7;
+}
+.menu__item--right {
+  position: absolute;
+  right: 10%;
+  top: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Pacifico;
+  -webkit-transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+  -moz-transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+  -o-transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+  transition: all 250ms cubic-bezier(0.6, 0.3, 0, 1);
+}
+.menu__item--right:hover {
+  opacity: 0.7;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+.footer, .wrapper:after {
+  height: 80px;
+}
+
+.footer {
+  background: #181818;
+  color: #FFFFFF;
+}
+
+#validatie img {
+  height: 1em;
+  width: auto;
+  border: 0;
+  margin: 0 0.3em;
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
